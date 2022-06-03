@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Welcome
+title: Home
 nav_order: 1
 description: "Welcome"
-permalink: /
 ---
 
 # Welcome to The RBC Documentation
