@@ -9,7 +9,7 @@ description: "Welcome"
 
 If you'd like to contribute to the development of this site, please [this page](/docs/Contributing/contributing.md). Submit an issue or [Pull Request](https://github.com/PennLINC/RBC-Documentation/pulls), so it can be reviewed and added to the site.
 
-#### Thank you to the contributors for LINC tutorials!
+#### Thank you to the contributors!
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
   <li class="d-inline-block mr-1">
