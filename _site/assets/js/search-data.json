@@ -337,7 +337,7 @@
   },"56": {
     "doc": "Home",
     "title": "Welcome to The RBC Documentation",
-    "content": "If you’d like to contribute to the development of this site, please this page. Submit an issue or Pull Request, so it can be reviewed and added to the site. Thank you to the contributors for LINC tutorials! . This documentation website was created using Jekyll and Github pages; the template is just-the-docs. ",
+    "content": "If you’d like to contribute to the development of this site, please this page. Submit an issue or Pull Request, so it can be reviewed and added to the site. Thank you to the contributors! . This documentation website was created using Jekyll and Github pages; the template is just-the-docs. ",
     "url": "http://localhost:4000/RBC-Documentation/#welcome-to-the-rbc-documentation",
     "relUrl": "/#welcome-to-the-rbc-documentation"
   },"57": {
