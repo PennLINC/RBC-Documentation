@@ -1,0 +1,29 @@
+I"ü<h1 id="fmriprep-preprocessing">fMRIPrep Preprocessing</h1>
+
+<p>fMRIPrep isâ€¦ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>All datasets in the RBC were preprocessed with fMRIPrep version #TODO. In the case that BOLD data was not available, fMRIPrep was run only on anatomical data with the <code class="language-plaintext highlighter-rouge">--anat-only</code> flag.</p>
+
+<p>To learn more about fMRIPrep, follow <a href="https://fmriprep.org/en/stable/index.html">this link</a> for their documentation, and <a href="">this link</a> to read the Nature Methods publication.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@misc{esteban_oscar_2017_996169,
+  author       = {Esteban, Oscar and
+                  Blair, Ross and
+                  Markiewicz, Christopher J. and
+                  Berleant, Shoshana L. and
+                  Moodie, Craig and
+                  Ma, Feilong and
+                  Isik, Ayse Ilkay and
+                  Erramuzpe, Asier and
+                  Goncalves, Mathias and
+                  Poldrack, Russell A. and
+                  Gorgolewski, Krzysztof J.},
+  title        = {poldracklab/fmriprep: 1.0.0-rc5},
+  month        = sep,
+  year         = 2017,
+  doi          = {10.5281/zenodo.996169},
+  url          = {https://doi.org/10.5281/zenodo.996169}
+}
+</code></pre></div></div>
+
+:ET

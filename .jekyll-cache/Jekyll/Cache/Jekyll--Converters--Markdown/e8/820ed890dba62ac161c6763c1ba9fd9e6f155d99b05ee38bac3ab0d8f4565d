@@ -1,0 +1,115 @@
+I".<h2 id="data-narrative-for-insert-dataset-name-here">Data Narrative for [INSERT DATASET NAME HERE]</h2>
+
+<h3 id="important-links-should-all-be-on-github">Important Links (should all be on GitHub):</h3>
+<ul>
+  <li>Data Processing Flow Diagram:
+    <ul>
+      <li>Flow diagram that describes the lifecycle of this dataset</li>
+    </ul>
+  </li>
+  <li>DSR GitHub Project Page(Curation/Validation and Processing Queue Status):
+    <ul>
+      <li>Cards for tracking the curation and validation portion of the dataset. This page should be updated every time you perform an action on the data.</li>
+      <li>Cards for tracking the progress of containerized pipeline runs on the data.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="plan-for-the-data">Plan for the Data</h3>
+
+<ul>
+  <li>Why does PennLINC need this data?</li>
+  <li>For which project(s) is it intended? Please link to project pages below:</li>
+  <li>What is our goal data format?
+    <ul>
+      <li>i.e. in what form do we want the data by the end of the “Curation” step? BIDS? Something else?</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="data-acquisition">Data Acquisition</h3>
+
+<ul>
+  <li>Who is responsible for acquiring this data?</li>
+  <li>Do you have a DUA? Who is allowed to access the data?</li>
+  <li>Where was the data acquired?</li>
+  <li>Describe the data. What type of information do we have? Things to specify include:
+    <ul>
+      <li>number of subjects</li>
+      <li>types of images</li>
+      <li>demographic data</li>
+      <li>clinical/cognitive data</li>
+      <li>any canned QC data</li>
+      <li>any preprocessed or derived data</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="download-and-storage">Download and Storage</h3>
+
+<ul>
+  <li>Who is responsible for downloading this data?</li>
+  <li>From where was the data downloaded?</li>
+  <li>Where is it currently being stored?</li>
+  <li>What form is the data in upon intial download (DICOMS, NIFTIS, something else?)</li>
+  <li>Are you using Datalad? If so, at which point did you check the data into datalad?</li>
+  <li>Is the data backed up in a second location? If so, please provide the path to the backup location:</li>
+</ul>
+
+<h3 id="curation-process">Curation Process</h3>
+
+<ul>
+  <li>Who is responsible for curating this data?</li>
+  <li>GitHub Link to curation scripts/heurstics:</li>
+  <li>GitHub Link to final CuBIDS csvs:</li>
+  <li>Describe the Curation Process. Include a list of the initial and final validation errors and warnings.</li>
+  <li>Describe additions, deletions, and metadata changes (if any).</li>
+</ul>
+
+<h3 id="preprocessing-pipelines">Preprocessing Pipelines</h3>
+<ul>
+  <li>For each pipeline (e.g. QSIPrep, fMRIPrep, XCP, C-PAC), please fill out the following information:
+    <ul>
+      <li>Pipeline Name:</li>
+      <li>Who is responsible for running preprocessing pipelines/audits on this data?</li>
+      <li>Where are you running these pipelines? CUBIC? PMACS? Somewhere else?</li>
+      <li>Did you implement exemplar testing? If so, please fill out the information below:
+        <ul>
+          <li>Path to exemplar dataset:</li>
+          <li>Path to exemplar outputs:</li>
+          <li>GitHub Link to exemplar audit:</li>
+        </ul>
+      </li>
+      <li>For production testing, please fill out the information below:
+        <ul>
+          <li>Path to production inputs:</li>
+          <li>GitHub Link to production outputs:</li>
+          <li>GitHub Link to production audit:</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="post-processing">Post Processing</h3>
+
+<ul>
+  <li>Who is using the data/for which projects are people in the lab using this data?
+    <ul>
+      <li>Link to project page(s) here</li>
+    </ul>
+  </li>
+  <li>For each post-processing analysis that has been run on this data, fill out the following
+    <ul>
+      <li>Who performed the analysis?</li>
+      <li>Where it was performed (CUBIC, PMACS, somewhere else)?</li>
+      <li>GitHub Link(s) to result(s)</li>
+      <li>Did you use pennlinckit?
+        <ul>
+          <li>https://github.com/PennLINC/PennLINC-Kit/tree/main/pennlinckit</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

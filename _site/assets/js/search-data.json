@@ -167,504 +167,468 @@
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/configuration/#google-analytics",
     "relUrl": "/docs/just-the-docs_documentation/configuration/#google-analytics"
   },"28": {
-    "doc": "Documentation",
-    "title": "Documentation",
+    "doc": "Contributing",
+    "title": "Contributing",
     "content": "Here, find all you need to know about contributing to this site and project documentation. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/contributing/",
     "relUrl": "/docs/Contributing/contributing/"
   },"29": {
+    "doc": "CuBIDS",
+    "title": "CuBIDS",
+    "content": "CuBIDS is designed to facilitate the curation of large, neuroimaging data so that users can infer useful information from descriptive and accurate BIDS labels. ",
+    "url": "http://localhost:4000/RBC-Documentation/docs/pipelines/cubids/",
+    "relUrl": "/docs/pipelines/cubids/"
+  },"30": {
+    "doc": "CuBIDS",
+    "title": "How to read CuBIDS Outputs",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. To learn more about CuBIDS, follow this link for their documentation, and this link to read the bioRXiv preprint. To cite CuBIDS, use the DOI below: . Curation of BIDS (CuBIDS): a workflow and software package for streamlining reproducible curation of large BIDS datasets Sydney Covitz, Tinashe M. Tapera, Azeez Adebimpe, Aaron Alexander-Bloch, Maxwell A. Bertolero, Eric Feczko, Alexandre R. Franco, Raquel E. Gur, Ruben C. Gur, Timothy Hendrickson, Audrey Houghton, Kahini Mehta, Kristin Murtha, Anders J. Perrone, Tim Robert-Fitzgerald, Jenna M. Schabdach, Russell T Shinohara, Jacob W. Vogel, Chenying Zhao, Damien A. Fair, Michael P. Milham, Matthew Cieslak, Theodore D. Satterthwaite bioRxiv 2022.05.04.490620; doi: https://doi.org/10.1101/2022.05.04.490620 . ",
+    "url": "http://localhost:4000/RBC-Documentation/docs/pipelines/cubids/#how-to-read-cubids-outputs",
+    "relUrl": "/docs/pipelines/cubids/#how-to-read-cubids-outputs"
+  },"31": {
+    "doc": "CuBIDS Report",
+    "title": "CuBIDS Report",
+    "content": "CuBIDS is designed to facilitate the curation of large, neuroimaging data so that users can infer useful information from descriptive and accurate BIDS labels. It helps identify potential heterogeneity within the dataset, which is useful both for preprocessing and for planning analyses. CuBIDS table below: . ",
+    "url": "http://localhost:4000/RBC-Documentation/docs/Datasets/BHRC/cubids/",
+    "relUrl": "/docs/Datasets/BHRC/cubids/"
+  },"32": {
     "doc": "Customization",
     "title": "Customization",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/customization/",
     "relUrl": "/docs/just-the-docs_documentation/customization/"
-  },"30": {
+  },"33": {
     "doc": "Customization",
     "title": "Table of contents",
     "content": ". | Color schemes | . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/customization/#table-of-contents",
     "relUrl": "/docs/just-the-docs_documentation/customization/#table-of-contents"
-  },"31": {
+  },"34": {
     "doc": "Customization",
     "title": "Color schemes",
     "content": "New . Just the Docs supports two color schemes: light (default), and dark. To enable a color scheme, set the color_scheme parameter in your site’s _config.yml file: . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/customization/#color-schemes",
     "relUrl": "/docs/just-the-docs_documentation/customization/#color-schemes"
-  },"32": {
-    "doc": "Datasets",
-    "title": "Title",
-    "content": " ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/pipelines/datasets/#title",
-    "relUrl": "/docs/pipelines/datasets/#title"
-  },"33": {
-    "doc": "Datasets",
-    "title": "Subtitle",
-    "content": "Content goes here . ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/pipelines/datasets/#subtitle",
-    "relUrl": "/docs/pipelines/datasets/#subtitle"
-  },"34": {
-    "doc": "Datasets",
-    "title": "Conclusion",
-    "content": "Conclusion goes here . ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/pipelines/datasets/#conclusion",
-    "relUrl": "/docs/pipelines/datasets/#conclusion"
   },"35": {
-    "doc": "Datasets",
-    "title": "Datasets",
-    "content": " ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/pipelines/datasets/",
-    "relUrl": "/docs/pipelines/datasets/"
+    "doc": "Data Narrative",
+    "title": "Data Narrative for [INSERT DATASET NAME HERE]",
+    "content": "Important Links (should all be on GitHub): . | Data Processing Flow Diagram: . | Flow diagram that describes the lifecycle of this dataset | . | DSR GitHub Project Page(Curation/Validation and Processing Queue Status): . | Cards for tracking the curation and validation portion of the dataset. This page should be updated every time you perform an action on the data. | Cards for tracking the progress of containerized pipeline runs on the data. | . | . Plan for the Data . | Why does PennLINC need this data? | For which project(s) is it intended? Please link to project pages below: | What is our goal data format? . | i.e. in what form do we want the data by the end of the “Curation” step? BIDS? Something else? | . | . Data Acquisition . | Who is responsible for acquiring this data? | Do you have a DUA? Who is allowed to access the data? | Where was the data acquired? | Describe the data. What type of information do we have? Things to specify include: . | number of subjects | types of images | demographic data | clinical/cognitive data | any canned QC data | any preprocessed or derived data | . | . Download and Storage . | Who is responsible for downloading this data? | From where was the data downloaded? | Where is it currently being stored? | What form is the data in upon intial download (DICOMS, NIFTIS, something else?) | Are you using Datalad? If so, at which point did you check the data into datalad? | Is the data backed up in a second location? If so, please provide the path to the backup location: | . Curation Process . | Who is responsible for curating this data? | GitHub Link to curation scripts/heurstics: | GitHub Link to final CuBIDS csvs: | Describe the Curation Process. Include a list of the initial and final validation errors and warnings. | Describe additions, deletions, and metadata changes (if any). | . Preprocessing Pipelines . | For each pipeline (e.g. QSIPrep, fMRIPrep, XCP, C-PAC), please fill out the following information: . | Pipeline Name: | Who is responsible for running preprocessing pipelines/audits on this data? | Where are you running these pipelines? CUBIC? PMACS? Somewhere else? | Did you implement exemplar testing? If so, please fill out the information below: . | Path to exemplar dataset: | Path to exemplar outputs: | GitHub Link to exemplar audit: | . | For production testing, please fill out the information below: . | Path to production inputs: | GitHub Link to production outputs: | GitHub Link to production audit: | . | . | . Post Processing . | Who is using the data/for which projects are people in the lab using this data? . | Link to project page(s) here | . | For each post-processing analysis that has been run on this data, fill out the following . | Who performed the analysis? | Where it was performed (CUBIC, PMACS, somewhere else)? | GitHub Link(s) to result(s) | Did you use pennlinckit? . | https://github.com/PennLINC/PennLINC-Kit/tree/main/pennlinckit | . | . | . ",
+    "url": "http://localhost:4000/RBC-Documentation/docs/Datasets/BHRC/datanarrative/#data-narrative-for-insert-dataset-name-here",
+    "relUrl": "/docs/Datasets/BHRC/datanarrative/#data-narrative-for-insert-dataset-name-here"
   },"36": {
-    "doc": "Datasets",
-    "title": "Title",
+    "doc": "Data Narrative",
+    "title": "Data Narrative",
     "content": " ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/imaging/datasets/#title",
-    "relUrl": "/docs/imaging/datasets/#title"
+    "url": "http://localhost:4000/RBC-Documentation/docs/Datasets/BHRC/datanarrative/",
+    "relUrl": "/docs/Datasets/BHRC/datanarrative/"
   },"37": {
-    "doc": "Datasets",
-    "title": "Subtitle",
-    "content": "Content goes here . ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/imaging/datasets/#subtitle",
-    "relUrl": "/docs/imaging/datasets/#subtitle"
-  },"38": {
-    "doc": "Datasets",
-    "title": "Conclusion",
-    "content": "Conclusion goes here . ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/imaging/datasets/#conclusion",
-    "relUrl": "/docs/imaging/datasets/#conclusion"
-  },"39": {
-    "doc": "Datasets",
-    "title": "Datasets",
-    "content": " ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/imaging/datasets/",
-    "relUrl": "/docs/imaging/datasets/"
-  },"40": {
-    "doc": "Datasets",
-    "title": "Title",
-    "content": " ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/demographics/datasets/#title",
-    "relUrl": "/docs/demographics/datasets/#title"
-  },"41": {
-    "doc": "Datasets",
-    "title": "Subtitle",
-    "content": "Content goes here . ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/demographics/datasets/#subtitle",
-    "relUrl": "/docs/demographics/datasets/#subtitle"
-  },"42": {
-    "doc": "Datasets",
-    "title": "Conclusion",
-    "content": "Conclusion goes here . ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/demographics/datasets/#conclusion",
-    "relUrl": "/docs/demographics/datasets/#conclusion"
-  },"43": {
-    "doc": "Datasets",
-    "title": "Datasets",
-    "content": " ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/demographics/datasets/",
-    "relUrl": "/docs/demographics/datasets/"
-  },"44": {
     "doc": "Writing Your Own Docs",
     "title": "Writing Your Own Documentation",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/#writing-your-own-documentation",
     "relUrl": "/docs/Contributing/documentation_guidelines/#writing-your-own-documentation"
-  },"45": {
+  },"38": {
     "doc": "Writing Your Own Docs",
     "title": "Table of contents",
     "content": ". | Getting Started . | Scenario 1: Starting New Documentation | Scenario 2: Contributing to Existing Documentation | . | Formatting | Committing Your Changes | Merge Conflicts &amp; Syncing | For Professionals . | Getting Started | How To Test Locally | . | . “Documentation is a love letter you write to yourself” . - Damian Conway . In this documentation about documentation, we’re going to outline how you can start writing documentation for your work and contribute to this site. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/#table-of-contents",
     "relUrl": "/docs/Contributing/documentation_guidelines/#table-of-contents"
-  },"46": {
+  },"39": {
     "doc": "Writing Your Own Docs",
     "title": "Getting Started",
     "content": "You will need a Github account to be able to contribute; this website is automatically generated by a code repository on Github and is written primarily in markdown, so that’s where we’re going to keep our focus on this task. There is no requirement that you have prior knowledge about how to code, and the first part of this tutorial will focus on contributing via the Github web interface (so you have nothing to download). ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/#getting-started",
     "relUrl": "/docs/Contributing/documentation_guidelines/#getting-started"
-  },"47": {
+  },"40": {
     "doc": "Writing Your Own Docs",
     "title": "Scenario 1: Starting New Documentation",
     "content": "As a prerequisite to starting new documentation, you should have an idea of where this tutorial may fit in the context of the site. just-the-docs’ structure allows us to create nested directories (folders) so we can organize our thoughts and documents efficiently. If this documentation fits under another topic, please create a new file in the appropriate folder. Otherwise, create a new folder for the topic. All folders should fall under RBC-Documentation/docs/, and often a single markdown file is enough for some documentation — it would be the ‘homepage’ of that topic. RBC-Documentation/docs/foo/foo_processing.md` . In this case, you can create a new file right from the Github: . Note: you don’t have to explicitly create folders in the Github web interface; just type out your filename and path with backslashes and Github will automatically create the directory structure for you. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/#scenario-1-starting-new-documentation",
     "relUrl": "/docs/Contributing/documentation_guidelines/#scenario-1-starting-new-documentation"
-  },"48": {
+  },"41": {
     "doc": "Writing Your Own Docs",
     "title": "Scenario 2: Contributing to Existing Documentation",
     "content": "If, on the other hand, you are contributing to existing documentation, then the process is simpler. All you will need to do is navigate to the file on Github, and click the edit button to begin editing: . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/#scenario-2-contributing-to-existing-documentation",
     "relUrl": "/docs/Contributing/documentation_guidelines/#scenario-2-contributing-to-existing-documentation"
-  },"49": {
+  },"42": {
     "doc": "Writing Your Own Docs",
     "title": "Formatting",
     "content": "Markdown is a great language to write documentation in. It is flexible, yet explicit, and easy to pick up. See this guide for more on markdown. Importantly, you must also include a YAML header in all of your markdown files. YAML (YetAnotherMarkdownLanguage) is a language used to create headers in markdown files, and these headers provide specific instructions to other programs on how to render a markdown document. YAML headers are begun right at the top of the document and are fenced in by 3 hyphens. Anything within a YAML header is of the form key: value, and the keys can describe a number of things. For example, this document’s YAML header is: . --- layout: default title: Writing Your Own Docs parent: Contributing has_toc: true nav_order: 1 --- . The layout and title are self explanatory. parent describes the fact that this page is a child page of the Contributing document, and has_toc tells the renderer that this page should have a table of contents. For more on the available YAML header options for this site, see this page. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/#formatting",
     "relUrl": "/docs/Contributing/documentation_guidelines/#formatting"
-  },"50": {
+  },"43": {
     "doc": "Writing Your Own Docs",
     "title": "Committing Your Changes",
     "content": "Once your edits are complete, you will need to commit them to the repository. This basically means you are happy with the changes you’ve made to the code, and you want to take a snapshot of it in this state; additionally, committing code to this repository is the mechanism that causes new data to render automatically to the website. While you write in markdown, you can also preview the format of the changes in Github’s web page using the “preview” button (see below). We recommend, if you are unfamiliar with how this works under the hood, that you always commit your changes to a new branch (i.e. a separate version) so that someone can review and test your changes in a Pull Request (a code proposition, if you will). You can change and describe the branch you’re committing to at the bottom of the page: . On the next page you can explicitly ask for someone to review the changes to your code before they are merged into the main codebase, after which, the changes are rendered. When you are ready, hit “Submit” and your code will be reviewed and merged into the code base. Once this is done, your new documentation will show up automatically on the website in a matter of minutes! . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/#committing-your-changes",
     "relUrl": "/docs/Contributing/documentation_guidelines/#committing-your-changes"
-  },"51": {
+  },"44": {
     "doc": "Writing Your Own Docs",
     "title": "Merge Conflicts &amp; Syncing",
     "content": "Sometimes, when you’ve been working on contributing code, you may find that someone else has been working on the same file. This creates a merge conflict when you try to put your changes together. To solve this, it may be necessary to get your files back on track with whatever has happened while you were editing — this is called syncing your fork, and is basically everything we discussed above but in reverse. The steps are as follows (we will use the terms “you” to denote your forked repository, and “them” to denote the repository you forked from): . | Use the Github compare tool to compare your repository against the one you forked; initially, it will have theirs as the base repository on the left, and your fork as the head repository on the right. This means a pull request will ask to merge head into base… We want to accomplish the opposite! . | Switch the base repository to your fork; you’ll now get a message that says you have no changes to compare (it is you comparing with you, after all). | Click on “compare against forks” at the top, and change the head (on the right) to their repository. | Now you can see the commits that they made since you forked and started working, if any; from this page, start a pull request, which is essentially you, asking you, if you want their commits added to your fork. | . You can see this process explained in further detail here and here. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/#merge-conflicts--syncing",
     "relUrl": "/docs/Contributing/documentation_guidelines/#merge-conflicts--syncing"
-  },"52": {
+  },"45": {
     "doc": "Writing Your Own Docs",
     "title": "For Professionals",
     "content": "This section describes how to accomplish the above workflow on your local machine, and test it there before committing changes. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/#for-professionals",
     "relUrl": "/docs/Contributing/documentation_guidelines/#for-professionals"
-  },"53": {
+  },"46": {
     "doc": "Writing Your Own Docs",
     "title": "Getting Started",
     "content": "One preferred way to add documentation is to spin up and run a webpage on your local machine, which will dynamically and automatically update as you write. You can then test and review changes as they would appear on the website without risk of damaging the public-facing site and without going back and forth with the commit workflow above. Sounds great, huh? . To do this, though, there is a little bit of overhead, mainly: . | A web browser (duh) | A program called ruby | A program called jekyll | . ruby is a popular language for web development and has a multitude of templates available, so it makes sense that this website is built on one of them. jekyll on the other hand is what’s called a static site generator. It takes written documents and parses them into static websites (i.e. ones that don’t need interactive features or a database backend). jekyll uses ruby to create pretty websites, while Github uses jekyll to publish websites on the internet for users and projects. Make sense? If not, it’s no matter. You will only need to do a few main things to get started with local testing for contributing to this site. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/#getting-started-1",
     "relUrl": "/docs/Contributing/documentation_guidelines/#getting-started-1"
-  },"54": {
+  },"47": {
     "doc": "Writing Your Own Docs",
     "title": "How To Test Locally",
     "content": "First, clone this repository to your local machine: . git clone https://github.com/PennLINC/RBC-Documentation.git . Next, make sure you have Ruby installed; the best way to check this is to do which ruby, and if there is no ruby program found, it’s recommended you install it with brew (most Linux and MacOS machines already use brew as a package manager akin to pip or npm, see this guide to find out how to install brew first if you don’t have it). To install ruby, just do: . brew install ruby # YOU SHOULD PROBABLY ALSO ADD IT TO YOUR PATH LIKE SO: echo 'export PATH=\"/usr/local/opt/ruby/bin:$PATH\"' &gt;&gt; ~/.bash_profile . Now install jekyll using a ruby “gem”, by doing the following: . # PERMISSIONS MAY BE REQUIRED gem install --user-install bundler jekyll . In this last step, you instruct jekyll to take all of the templates and files in the current directory and spin them up into a webpage, and ruby will serve it on your local machine. The instruction for this, from the root directory of the repo: . cd RBC-Documentation bundle exec jekyll serve . If you see something like this: . Configuration file: /Users/mac/BBL/PennLINC.github.io/_config.yml Source: /Users/mac/BBL/PennLINC.github.io Destination: /Users/mac/BBL/PennLINC.github.io/_site Incremental build: disabled. Enable with --incremental Generating... done in 4.378 seconds. Auto-regeneration: enabled for '/Users/mac/BBL/PennLINC.github.io' Server address: http://127.0.0.1:4000// Server running... press ctrl-c to stop. You’re in business! Just visit http://127.0.0.1:4000// in your web browser to view the local version of PennLINC.github.io! . Now, you can edit files locally in docs/, and whenever you save the file, the local web page will update to reflect those changes! When you’re done, hit CTRL-C to stop serving the site, and then commit and push your changes to Github to put them on the internet. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/#how-to-test-locally",
     "relUrl": "/docs/Contributing/documentation_guidelines/#how-to-test-locally"
-  },"55": {
+  },"48": {
     "doc": "Writing Your Own Docs",
     "title": "Writing Your Own Docs",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Contributing/documentation_guidelines/",
     "relUrl": "/docs/Contributing/documentation_guidelines/"
-  },"56": {
+  },"49": {
+    "doc": "fMRIPrep",
+    "title": "fMRIPrep",
+    "content": "fMRIPrep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state fMRI, graph theory measures, surface or volume-based statistics, etc. All datasets in the RBC were preprocessed with fMRIPrep version #TODO. In the case that BOLD data was not available, fMRIPrep was run only on anatomical data with the --anat-only flag. To learn more about fMRIPrep, follow this link for their documentation, and this link to read the Nature Methods publication. @misc{esteban_oscar_2017_996169, author = {Esteban, Oscar and Blair, Ross and Markiewicz, Christopher J. and Berleant, Shoshana L. and Moodie, Craig and Ma, Feilong and Isik, Ayse Ilkay and Erramuzpe, Asier and Goncalves, Mathias and Poldrack, Russell A. and Gorgolewski, Krzysztof J.}, title = {poldracklab/fmriprep: 1.0.0-rc5}, month = sep, year = 2017, doi = {10.5281/zenodo.996169}, url = {https://doi.org/10.5281/zenodo.996169} } . ",
+    "url": "http://localhost:4000/RBC-Documentation/docs/pipelines/fmriprep/",
+    "relUrl": "/docs/pipelines/fmriprep/"
+  },"50": {
     "doc": "Home",
     "title": "Welcome to The RBC Documentation",
-    "content": "If you’d like to contribute to the development of this site, please this page. Submit an issue or Pull Request, so it can be reviewed and added to the site. Thank you to the contributors! . This documentation website was created using Jekyll and Github pages; the template is just-the-docs. ",
+    "content": "If you’d like to contribute to the development of this site, please see this page. Submit an issue or Pull Request, so it can be reviewed and added to the site. Thank you to the contributors! . This documentation website was created using Jekyll and Github pages; the template is just-the-docs. ",
     "url": "http://localhost:4000/RBC-Documentation/#welcome-to-the-rbc-documentation",
     "relUrl": "/#welcome-to-the-rbc-documentation"
-  },"57": {
+  },"51": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/",
     "relUrl": "/"
-  },"58": {
+  },"52": {
     "doc": "just-the-docs",
     "title": "How to use just-the-docs",
     "content": "We’ve archived these pages here for documentation on how to create just-the-docs pages. However, the official project’s documentation will most likely be more up to date. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/index#how-to-use-just-the-docs",
     "relUrl": "/docs/just-the-docs_documentation/index#how-to-use-just-the-docs"
-  },"59": {
+  },"53": {
     "doc": "just-the-docs",
     "title": "just-the-docs",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/index",
     "relUrl": "/docs/just-the-docs_documentation/index"
-  },"60": {
-    "doc": "Demographic Data",
-    "title": "Demographic Data",
-    "content": "This section documents the imaging data collected and processed. ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/demographics/",
-    "relUrl": "/docs/demographics/"
-  },"61": {
-    "doc": "Imaging Data",
-    "title": "Imaging Data",
-    "content": "This section documents the imaging data collected and processed. ",
-    "url": "http://localhost:4000/RBC-Documentation/docs/imaging/",
-    "relUrl": "/docs/imaging/"
-  },"62": {
+  },"54": {
+    "doc": "Brazil High Risk Cohort",
+    "title": "Brazil High Risk Cohort",
+    "content": "The Brazil High Risk Cohort (BHRC) dataset was originally collected by… Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Below is a diagrammatic overview of the BHRC dataset’s processing. You can also read a precise data narrative at this link. ",
+    "url": "http://localhost:4000/RBC-Documentation/docs/Datasets/BHRC/",
+    "relUrl": "/docs/Datasets/BHRC/"
+  },"55": {
+    "doc": "Datasets",
+    "title": "Datasets",
+    "content": "There are a number of datasets available in the RBC project. Follow the links below to learn about them. | Brazil High Risk Cohort | Philadelphia Neurodevelopmental Cohort | . etc… . ",
+    "url": "http://localhost:4000/RBC-Documentation/docs/Datasets/",
+    "relUrl": "/docs/Datasets/"
+  },"56": {
     "doc": "Pipelines",
     "title": "Preprocessing Pipelines",
-    "content": "This section documents what preprocessed outputs are available and the pipeline configurations used to generate them. ",
+    "content": "This outline documents what what preprocessing pipelines were used, the configurations used to generate them, and how to access their outputs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/pipelines/#preprocessing-pipelines",
     "relUrl": "/docs/pipelines/#preprocessing-pipelines"
-  },"63": {
+  },"57": {
     "doc": "Pipelines",
     "title": "Pipelines",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/pipelines/",
     "relUrl": "/docs/pipelines/"
-  },"64": {
+  },"58": {
     "doc": "Citing",
     "title": "Citing this Project",
     "content": "To cite this project, please use Some DOI. Publications that have used this project’s data include: . | pub1 | pub2 | pub3 | . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Citing/#citing-this-project",
     "relUrl": "/docs/Citing/#citing-this-project"
-  },"65": {
+  },"59": {
     "doc": "Citing",
     "title": "Citing",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/Citing/",
     "relUrl": "/docs/Citing/"
-  },"66": {
+  },"60": {
     "doc": "Labels",
     "title": "Labels",
     "content": "Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue. Default label . Blue label . Stable . New release . Coming soon . Deprecated . Default label {: .label } Blue label {: .label .label-blue } Stable {: .label .label-green } New release {: .label .label-purple } Coming soon {: .label .label-yellow } Deprecated {: .label .label-red } . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/labels/",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/labels/"
-  },"67": {
+  },"61": {
     "doc": "Layout",
     "title": "Layout Utilities",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/layout/#layout-utilities",
     "relUrl": "/docs/just-the-docs_documentation/utilities/layout/#layout-utilities"
-  },"68": {
+  },"62": {
     "doc": "Layout",
     "title": "Table of contents",
     "content": ". | Spacing | Vertical Alignment | Display | . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/layout/#table-of-contents",
     "relUrl": "/docs/just-the-docs_documentation/utilities/layout/#table-of-contents"
-  },"69": {
+  },"63": {
     "doc": "Layout",
     "title": "Spacing",
     "content": "These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively. | Classname prefix | What it does | . | .m- | margin | . | .mx- | margin-left, margin-right | . | .my- | margin top, margin bottom | . | .mt- | margin-top | . | .mr- | margin-right | . | .mb- | margin-bottom | . | .ml- | margin-left | . | Classname prefix | What it does | . | .p- | padding | . | .px- | padding-left, padding-right | . | .py- | padding top, padding bottom | . | .pt- | padding-top | . | .pr- | padding-right | . | .pb- | padding-bottom | . | .pl- | padding-left | . Spacing values are based on a 1rem = 16px spacing scale, broken down into these units: . | Spacer/suffix | Size in rems | Rem converted to px | . | 1 | 0.25rem | 4px | . | 2 | 0.5rem | 8px | . | 3 | 0.75rem | 12px | . | 4 | 1rem | 16px | . | 5 | 1.5rem | 24px | . | 6 | 2rem | 32px | . | 7 | 2.5rem | 40px | . | 8 | 3rem | 48px | . Examples . In Markdown, use the {: } wrapper to apply custom classes: . This paragraph will have a margin bottom of 1rem/16px at large screens. {: .mb-lg-4 } This paragraph will have 2rem/32px of padding on the right and left at all screen sizes. {: .px-6 } . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/layout/#spacing",
     "relUrl": "/docs/just-the-docs_documentation/utilities/layout/#spacing"
-  },"70": {
+  },"64": {
     "doc": "Layout",
     "title": "Vertical Alignment",
     "content": "| Classname | What it does | . | .v-align-baseline | vertical-align: baseline | . | .v-align-bottom | vertical-align: bottom | . | .v-align-middle | vertical-align: middle | . | .v-align-text-bottom | vertical-align: text-bottom | . | .v-align-text-top | vertical-align: text-top | . | .v-align-top | vertical-align: top | . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/layout/#vertical-alignment",
     "relUrl": "/docs/just-the-docs_documentation/utilities/layout/#vertical-alignment"
-  },"71": {
+  },"65": {
     "doc": "Layout",
     "title": "Display",
     "content": "Display classes aid in adapting the layout of the elements on a page: . | Class |   | . | .d-block | display: block | . | .d-flex | display: flex | . | .d-inline | display: inline | . | .d-inline-block | display: inline-block | . | .d-none | display: none | . Use these classes in conjunction with the responsive modifiers. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This button will be hidden until medium screen sizes: [ A button ](#url) {: .d-none .d-md-inline-block } These headings will be `inline-block`: ### heading 3 {: .d-inline-block } ### heading 3 {: .d-inline-block } . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/layout/#display",
     "relUrl": "/docs/just-the-docs_documentation/utilities/layout/#display"
-  },"72": {
+  },"66": {
     "doc": "Layout",
     "title": "Layout",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/layout/",
     "relUrl": "/docs/just-the-docs_documentation/utilities/layout/"
-  },"73": {
+  },"67": {
     "doc": "Lists",
     "title": "Lists",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/lists/",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/lists/"
-  },"74": {
+  },"68": {
     "doc": "Lists",
     "title": "Table of contents",
     "content": ". | Unordered list | Ordered list | Task list | Definition list | . Most lists can be rendered with pure Markdown. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/lists/#table-of-contents",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/lists/#table-of-contents"
-  },"75": {
+  },"69": {
     "doc": "Lists",
     "title": "Unordered list",
     "content": ". | Item 1 | Item 2 | Item 3 | . or . | Item 1 | Item 2 | Item 3 | . - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/lists/#unordered-list",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/lists/#unordered-list"
-  },"76": {
+  },"70": {
     "doc": "Lists",
     "title": "Ordered list",
     "content": ". | Item 1 | Item 2 | Item 3 | . 1. Item 1 1. Item 2 1. Item 3 . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/lists/#ordered-list",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/lists/#ordered-list"
-  },"77": {
+  },"71": {
     "doc": "Lists",
     "title": "Task list",
     "content": ". | hello, this is a todo item | hello, this is another todo item | goodbye, this item is done | . - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/lists/#task-list",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/lists/#task-list"
-  },"78": {
+  },"72": {
     "doc": "Lists",
     "title": "Definition list",
     "content": "Definition lists require HTML syntax and aren’t supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green &lt;dl&gt; &lt;dt&gt;Name&lt;/dt&gt; &lt;dd&gt;Godzilla&lt;/dd&gt; &lt;dt&gt;Born&lt;/dt&gt; &lt;dd&gt;1952&lt;/dd&gt; &lt;dt&gt;Birthplace&lt;/dt&gt; &lt;dd&gt;Japan&lt;/dd&gt; &lt;dt&gt;Color&lt;/dt&gt; &lt;dd&gt;Green&lt;/dd&gt; &lt;/dl&gt; . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/lists/#definition-list",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/lists/#definition-list"
-  },"79": {
+  },"73": {
     "doc": "Navigation Structure",
     "title": "Navigation Structure",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/navigation-structure/",
     "relUrl": "/docs/just-the-docs_documentation/navigation-structure/"
-  },"80": {
+  },"74": {
     "doc": "Navigation Structure",
     "title": "Table of contents",
     "content": ". | Main navigation | Ordering pages | Excluding pages | Pages with children . | Child pages | Auto-generating Table of Contents | Children with children | . | Auxiliary Navigation | In-page navigation with Table of Contents | . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/navigation-structure/#table-of-contents",
     "relUrl": "/docs/just-the-docs_documentation/navigation-structure/#table-of-contents"
-  },"81": {
+  },"75": {
     "doc": "Navigation Structure",
     "title": "Main navigation",
     "content": "The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/navigation-structure/#main-navigation",
     "relUrl": "/docs/just-the-docs_documentation/navigation-structure/#main-navigation"
-  },"82": {
+  },"76": {
     "doc": "Navigation Structure",
     "title": "Ordering pages",
     "content": "To specify a page order, use the nav_order parameter in your pages’ YAML front matter. Example . --- layout: default title: Customization nav_order: 4 --- . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/navigation-structure/#ordering-pages",
     "relUrl": "/docs/just-the-docs_documentation/navigation-structure/#ordering-pages"
-  },"83": {
+  },"77": {
     "doc": "Navigation Structure",
     "title": "Excluding pages",
     "content": "For specific pages that you do not wish to include in the main navigation, e.g. a 404 page or a landing page, use the nav_exclude: true parameter in the YAML front matter for that page. Example . --- layout: default title: 404 nav_exclude: true --- . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/navigation-structure/#excluding-pages",
     "relUrl": "/docs/just-the-docs_documentation/navigation-structure/#excluding-pages"
-  },"84": {
+  },"78": {
     "doc": "Navigation Structure",
     "title": "Pages with children",
     "content": "Sometimes you will want to create a page with many children (a section). First, it is recommended that you keep pages that are related in a directory together… For example, in these docs, we keep all of the written documentation in the ./docs directory and each of the sections in subdirectories like ./docs/ui-components and ./docs/utilities. This gives us an organization like: . +-- .. |-- (Jekyll files) |-- docs |-- ui-components | |-- index.md (parent page) | |-- buttons.md | |-- code.md | |-- labels.md | |-- tables.md | +-- typography.md | |-- utilities | |-- index.md (parent page) | |-- color.md | |-- layout.md | |-- responsive-modifiers.md | +-- typography.md | |-- (other md files, pages with no children) | +-- .. |-- (Jekyll files) +-- .. On the parent pages, add this YAML front matter parameter: . | has_children: true (tells us that this is a parent page) | . Example . --- layout: default title: UI Components nav_order: 2 has_children: true --- . Here we’re setting up the UI Components landing page that is available at /docs/ui-components, which has children and is ordered second in the main nav. Child pages . On child pages, simply set the parent: YAML front matter to whatever the parent’s page title is and set a nav order (this number is now scoped within the section). Example . --- layout: default title: Buttons parent: UI Components nav_order: 2 --- . The Buttons page appears as a child of UI Components and appears second in the UI Components section. Auto-generating Table of Contents . By default, all pages with children will automatically append a Table of Contents which lists the child pages after the parent page’s content. To disable this auto Table of Contents, set has_toc: false in the parent page’s YAML front matter. Example . --- layout: default title: UI Components nav_order: 2 has_children: true has_toc: false --- . Children with children . Child pages can also have children (grandchildren). This is achieved by using a similar pattern on the child and grandchild pages. | Add the has_children attribute to the child | Add the parent and grand_parent attribute to the grandchild | . Example . --- layout: default title: Buttons parent: UI Components nav_order: 2 has_children: true --- . --- layout: default title: Buttons Child Page parent: Buttons grand_parent: UI Components nav_order: 1 --- . This would create the following navigation structure: . +-- .. |-- UI Components |-- .. | |-- Buttons | |-- Button Child Page | |-- .. | +-- .. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/navigation-structure/#pages-with-children",
     "relUrl": "/docs/just-the-docs_documentation/navigation-structure/#pages-with-children"
-  },"85": {
+  },"79": {
     "doc": "Navigation Structure",
     "title": "Auxiliary Navigation",
     "content": "To add a auxiliary navigation item to your site (in the upper right on all pages), add it to the aux_nav configuration option in your site’s _config.yml file. Example . # Aux links for the upper right navigation aux_links: \"Just the Docs on GitHub\": - \"//github.com/PennLINC/PennLINC.github.io\" . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/navigation-structure/#auxiliary-navigation",
     "relUrl": "/docs/just-the-docs_documentation/navigation-structure/#auxiliary-navigation"
-  },"86": {
+  },"80": {
     "doc": "Navigation Structure",
     "title": "In-page navigation with Table of Contents",
     "content": "To generate a Table of Contents on your docs pages, you can use the {:toc} method from Kramdown, immediately after an &lt;ol&gt; in Markdown. This will automatically generate an ordered list of anchor links to various sections of the page based on headings and heading levels. There may be occasions where you’re using a heading and you don’t want it to show up in the TOC, so to skip a particular heading use the {: .no_toc } CSS class. Example . # Navigation Structure {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} . This example skips the page name heading (#) from the TOC, as well as the heading for the Table of Contents itself (##) because it is redundant, followed by the table of contents itself. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/navigation-structure/#in-page-navigation-with-table-of-contents",
     "relUrl": "/docs/just-the-docs_documentation/navigation-structure/#in-page-navigation-with-table-of-contents"
-  },"87": {
+  },"81": {
     "doc": "Responsive Modifiers",
     "title": "Responsive modifiers",
     "content": "Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes. | Modifier | Screen size | . | (none) | All screens until the next modifier | . | xs | 320px (20rem) and up | . | sm | 500px (31.25rem) and up | . | md | 740px (46.25rem) and up | . | lg | 1120px (70rem) and up | . | xl | 1400px (87.5rem) and up | . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/responsive-modifiers/#responsive-modifiers",
     "relUrl": "/docs/just-the-docs_documentation/utilities/responsive-modifiers/#responsive-modifiers"
-  },"88": {
+  },"82": {
     "doc": "Responsive Modifiers",
     "title": "Responsive Modifiers",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/responsive-modifiers/",
     "relUrl": "/docs/just-the-docs_documentation/utilities/responsive-modifiers/"
-  },"89": {
+  },"83": {
     "doc": "Search",
     "title": "Search",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/search/",
     "relUrl": "/docs/just-the-docs_documentation/search/"
-  },"90": {
+  },"84": {
     "doc": "Search",
     "title": "Table of contents",
     "content": ". | Set up search . | Generate search index | Enable search in configuration | . | Hiding pages from search | . Just the Docs uses lunr.js to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: . | Page title | Page content | Page URL | . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/search/#table-of-contents",
     "relUrl": "/docs/just-the-docs_documentation/search/#table-of-contents"
-  },"91": {
+  },"85": {
     "doc": "Search",
     "title": "Set up search",
     "content": "Generate search index . Before you can use search, you must initialize the feature by running this rake command that comes with just-the-docs: . $ bundle exec just-the-docs rake search:init . This command creates the search-data.json file that Jekyll uses to create your search index. Alternatively, you can create the file manually in the assets/js/ directory of your Jekyll site with this content: . --- --- { {% assign comma = false %} {% for page in site.html_pages %}{% if page.search_exclude != true %}{% if comma == true%},{% endif %}\"{{ forloop.index0 }}\": { \"title\": \"{{ page.title | replace: '&amp;amp;', '&amp;' }}\", \"content\": \"{{ page.content | markdownify | replace: '&lt;/h', ' . &lt;/h' | replace: '&lt;hr', ' . &lt;hr' | replace: '&lt;/p', ' . &lt;/p' | replace: '&lt;/ul', ' . &lt;/ul' | replace: '&lt;/tr', ' . &lt;/tr' | replace: '&lt;/li', ' | &lt;/li' | replace: '&lt;/td', ' | &lt;/td' | strip_html | escape_once | remove: '' | remove: '```' | remove: '---' | replace: '\\', ' ' | replace: ' . ', ' . ' | replace: ' . ', ' . ' | normalize_whitespace }}\", \"url\": \"{{ page.url | absolute_url }}\", \"relUrl\": \"{{ page.url }}\" }{% assign comma = true %} {% endif %}{% endfor %} } . Note: If you don’t run this rake command or create this file manually, search will not work (or it will use the search index data from this docs site, not your site’s content). Enable search in configuration . In your site’s _config.yml, enable search: . # Enable or disable the site search search_enabled: true . The default is for hyphens to separate tokens in search terms: gem-based is equivalent to gem based, matching either word. To allow search for hyphenated words: . # Set the search token separator search_tokenizer_separator: /[\\s/]+/ . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/search/#set-up-search",
     "relUrl": "/docs/just-the-docs_documentation/search/#set-up-search"
-  },"92": {
+  },"86": {
     "doc": "Search",
     "title": "Hiding pages from search",
     "content": "Sometimes you might have a page that you don’t want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the search_exclude: true parameter to the page’s YAML front matter: . Example . --- layout: default title: Page not found nav_exclude: true search_exclude: true --- . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/search/#hiding-pages-from-search",
     "relUrl": "/docs/just-the-docs_documentation/search/#hiding-pages-from-search"
-  },"93": {
+  },"87": {
     "doc": "Tables",
     "title": "Tables",
     "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/tables/",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/tables/"
-  },"94": {
+  },"88": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/typography/",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/typography/"
-  },"95": {
+  },"89": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font stack | Responsive type scale | Headings | Body text | Inline elements | Typographic Utilities | . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/typography/#table-of-contents",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/typography/#table-of-contents"
-  },"96": {
+  },"90": {
     "doc": "Typography",
     "title": "Font stack",
     "content": "By default, Just the Docs uses a native system font stack for sans-serif fonts: . -apple-system, BlinkMacSystemFont, \"helvetica neue\", helvetica, roboto, noto, \"segoe ui\", arial, sans-serif . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . For monospace type, like code snippets or the &lt;pre&gt; element, Just the Docs uses a native system font stack for monospace fonts: . \"SFMono-Regular\", Menlo, Consolas, Monospace . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/typography/#font-stack",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/typography/#font-stack"
-  },"97": {
+  },"91": {
     "doc": "Typography",
     "title": "Responsive type scale",
     "content": "Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size font-size | Large screen size font-size | . | h1, .text-alpha | 32px | 36px | . | h2, .text-beta | 18px | 24px | . | h3, .text-gamma | 16px | 18px | . | h4, .text-delta | 14px | 16px | . | h5, .text-epsilon | 16px | 18px | . | h6, .text-zeta | 18px | 24px | . | body | 14px | 16px | . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/typography/#responsive-type-scale",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/typography/#responsive-type-scale"
-  },"98": {
+  },"92": {
     "doc": "Typography",
     "title": "Headings",
     "content": "Headings are rendered like this: . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/typography/#headings",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/typography/#headings"
-  },"99": {
+  },"93": {
     "doc": "Typography",
     "title": "Heading 1",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/typography/",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/typography/"
-  },"100": {
+  },"94": {
     "doc": "Typography",
     "title": "Heading 2",
     "content": "Heading 3 . Heading 4 . Heading 5 . Heading 6 . # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/typography/",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/typography/"
-  },"101": {
+  },"95": {
     "doc": "Typography",
     "title": "Body text",
     "content": "Default body text is rendered like this: . Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/typography/#body-text",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/typography/#body-text"
-  },"102": {
+  },"96": {
     "doc": "Typography",
     "title": "Inline elements",
     "content": "Text can be bold, italic, or strikethrough. Link to another page. Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](another-page). ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/typography/#inline-elements",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/typography/#inline-elements"
-  },"103": {
+  },"97": {
     "doc": "Typography",
     "title": "Typographic Utilities",
     "content": "There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. View typography utilities . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components/typography/#typographic-utilities",
     "relUrl": "/docs/just-the-docs_documentation/ui-components/typography/#typographic-utilities"
-  },"104": {
+  },"98": {
     "doc": "Typography",
     "title": "Typography Utilities",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/typography/#typography-utilities",
     "relUrl": "/docs/just-the-docs_documentation/utilities/typography/#typography-utilities"
-  },"105": {
+  },"99": {
     "doc": "Typography",
     "title": "Table of contents",
     "content": ". | Font size | Font weight | Line height | . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/typography/#table-of-contents",
     "relUrl": "/docs/just-the-docs_documentation/utilities/typography/#table-of-contents"
-  },"106": {
+  },"100": {
     "doc": "Typography",
     "title": "Font size",
     "content": "Use the .fs-1 - .fs-10 to set an explicit font-size. | Class | Small screen size font-size | Large screen size font-size | . | .fs-1 | 9px | 10px | . | .fs-2 | 11px | 12px | . | .fs-3 | 12px | 14px | . | .fs-4 | 14px | 16px | . | .fs-5 | 16px | 18px | . | .fs-6 | 18px | 24px | . | .fs-7 | 24px | 32px | . | .fs-8 | 32px | 38px | . | .fs-9 | 38px | 42px | . | .fs-10 | 42px | 48px | . Font size 1 . Font size 2 . Font size 3 . Font size 4 . Font size 5 . Font size 6 . Font size 7 . Font size 8 . Font size 9 . Font size 10 . In Markdown, use the `{: }` wrapper to apply custom classes: Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/typography/#font-size",
     "relUrl": "/docs/just-the-docs_documentation/utilities/typography/#font-size"
-  },"107": {
+  },"101": {
     "doc": "Typography",
     "title": "Font weight",
     "content": "Use the .fw-300 - .fw-700 to set an explicit font-size. Font weight 300 . Font weight 400 . Font weight 500 . Font weight 700 . In Markdown, use the `{: }` wrapper to apply custom classes: Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/typography/#font-weight",
     "relUrl": "/docs/just-the-docs_documentation/utilities/typography/#font-weight"
-  },"108": {
+  },"102": {
     "doc": "Typography",
     "title": "Line height",
     "content": "Use the lh- classes to explicitly apply line height to text. | Class | line-height value | Notes | . | .lh-0 | 0 |   | . | .lh-tight | 1.1 | Default for headings | . | .lh-default | 1.4 | Default for body (paragraphs) | . No Line height No Line height . Tight line height Tight line height . Default line height Default line height . In Markdown, use the `{: }` wrapper to apply custom classes: No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } . ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/typography/#line-height",
     "relUrl": "/docs/just-the-docs_documentation/utilities/typography/#line-height"
-  },"109": {
+  },"103": {
     "doc": "Typography",
     "title": "Typography",
     "content": " ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/utilities/typography/",
     "relUrl": "/docs/just-the-docs_documentation/utilities/typography/"
-  },"110": {
+  },"104": {
     "doc": "UI Components",
     "title": "UI Components",
     "content": "To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed. ",
     "url": "http://localhost:4000/RBC-Documentation/docs/just-the-docs_documentation/ui-components",
     "relUrl": "/docs/just-the-docs_documentation/ui-components"
-  },"111": {
+  },"105": {
     "doc": "Utilities",
     "title": "Utilities",
     "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. ",
